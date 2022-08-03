@@ -65,15 +65,15 @@ export class App extends React.Component {
                     <div className="route-container">
                         <Nav />
                         <Routes>
-                            <Route path="/"  element={<TripsCount total={this.countDays()} trek={this.countDays('Trek')} tropic={this.countDays('Tropic')} club={this.countDays('Club')}/>}  />
-                            <Route path="/list" element={ <TripsList days={this.state.allTrips} />}/>
+                            <Route path="react-protrips/"  element={<TripsCount total={this.countDays()} trek={this.countDays('Trek')} tropic={this.countDays('Tropic')} club={this.countDays('Club')}/>}  />
+                            <Route path="react-protrips/list" element={ <TripsList days={this.state.allTrips} />}/>
 
-                             <Route path="trek" element={<Trek days={this.state.allTrips}/>}  />
-                             <Route path="tropic" element={<Tropic days={this.state.allTrips}/>}  />
-                             <Route path="club" element={<Club days={this.state.allTrips} />} />
+                             <Route path="react-protrips/trek" element={<Trek days={this.state.allTrips}/>}  />
+                             <Route path="react-protrips/tropic" element={<Tropic days={this.state.allTrips}/>}  />
+                             <Route path="react-protrips/club" element={<Club days={this.state.allTrips} />} />
     
-                            <Route path="/add" element={<AddTrip   newTrip={this.addTrip} />}  />
-                            <Route component={Error404} />
+                            <Route path="react-protrips/add" element={<AddTrip   newTrip={this.addTrip} />}  />
+                            <Route path="*" element={<Error404/>} />
                         </Routes>
                     </div>                    
                 </BrowserRouter>                

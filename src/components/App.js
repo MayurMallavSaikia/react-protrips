@@ -73,7 +73,7 @@ export class App extends React.Component {
                              <Route path="react-protrips/club" element={<Club days={this.state.allTrips} />} />
     
                             <Route path="react-protrips/add" element={<AddTrip   newTrip={this.addTrip} />}  />
-                            <Route path="*" element={<Error404/>} />
+                            <Route path="" element={<Error404/>} />
                         </Routes>
                     </div>                    
                 </BrowserRouter>                

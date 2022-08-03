@@ -28,19 +28,19 @@ export const TripsList = ({days}) => {
             </table>
             <div className="filters">
                 Filter by:
-                <Link to="/list">
+                <Link to="/react-protrips/list">
                     All
 				</Link>
                 &#9679;
-                <Link to="/trek">
+                <Link to="/react-protrips/trek">
                     Treks
 				</Link>
                 &#9679;
-                <Link to="/club">
+                <Link to="/react-protrips/club">
                     Clubs
 				</Link>
                 &#9679;
-                <Link to="/tropic">
+                <Link to="/react-protrips/tropic">
                     Tropics
 				</Link>
             </div>            

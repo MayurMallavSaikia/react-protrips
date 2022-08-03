@@ -40,7 +40,7 @@ let ClubDays = days.filter(function(val){ return (val.type==='Club') });
                     Treks
 				</Link>
                 &#9679;
-                <Link to="/raect-protrips/club">
+                <Link to="/react-protrips/club">
                     Clubs
 				</Link>
                 &#9679;

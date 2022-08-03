@@ -8,13 +8,13 @@ import { MdOutlineCalendarViewMonth } from "react-icons/md";
 
 export const Nav = () => (
     <nav className="nav">
-        <Link to="/">
+        <Link to="react-protrips/">
             <IoHomeOutline />
         </Link>
-        <Link to="/add">
+        <Link to="react-protrips/add">
             <BsFillCalendarPlusFill />
         </Link>
-        <Link to="/list">
+        <Link to="react-protrips/list">
             <MdOutlineCalendarViewMonth/>
         </Link>
     </nav>
